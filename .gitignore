@@ -21,6 +21,7 @@ xcuserdata/
 *.xcscheme
 xcschememanagement.plist
 *.xcbkptlist
+*.framework
 
 ## Other
 *.moved-aside
