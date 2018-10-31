@@ -63,6 +63,7 @@
 		140351D421898785006E9C9B /* OpenCViOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCViOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		140351D521898785006E9C9B /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenCVWrapper.h; path = OpenCViOS/OpenCVWrapper.h; sourceTree = "<group>"; };
 		140351D621898785006E9C9B /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenCVWrapper.mm; path = OpenCViOS/OpenCVWrapper.mm; sourceTree = "<group>"; };
+		14051E2D21898A8A00F1A21D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = OpenCViOS/PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 			children = (
 				140351D521898785006E9C9B /* OpenCVWrapper.h */,
 				140351D621898785006E9C9B /* OpenCVWrapper.mm */,
+				14051E2D21898A8A00F1A21D /* PrefixHeader.pch */,
 				140351D421898785006E9C9B /* OpenCViOS-Bridging-Header.h */,
 				1403519821898582006E9C9B /* OpenCViOS */,
 				140351AD21898584006E9C9B /* OpenCViOSTests */,
@@ -478,6 +480,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/OpenCViOS/opencv",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OpenCViOS/PrefixHeader.pch";
 				INFOPLIST_FILE = OpenCViOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -504,6 +507,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/OpenCViOS/opencv",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OpenCViOS/PrefixHeader.pch";
 				INFOPLIST_FILE = OpenCViOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (

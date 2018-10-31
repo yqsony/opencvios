@@ -10,4 +10,6 @@
 
 @interface OpenCVWrapper : NSObject
 
++ (NSString *)openCVVersionString;
+
 @end
