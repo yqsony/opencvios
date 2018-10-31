@@ -22,6 +22,7 @@ xcuserdata/
 xcschememanagement.plist
 *.xcbkptlist
 *.framework
+*.DS_Store
 
 ## Other
 *.moved-aside
